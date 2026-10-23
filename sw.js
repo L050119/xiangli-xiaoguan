@@ -1,4 +1,4 @@
-const CACHE_NAME = 'xiangli-pwa-v1'
+const CACHE_NAME = 'xiangli-pwa-v2'
 const CORE_FILES = [
   './',
   './manifest.webmanifest',
@@ -15,6 +15,15 @@ const CORE_FILES = [
   './images/salad.jpg',
   './images/dessert.jpg',
   './images/tea.jpg',
+  './images/scallion-noodles.jpg',
+  './images/sweet-sour-ribs.jpg',
+  './images/longjing-shrimp.jpg',
+  './images/duck-bamboo-soup.jpg',
+  './images/pork-rice.jpg',
+  './images/yellow-croaker.jpg',
+  './images/shrimp-ball-soup.jpg',
+  './images/osmanthus-rice-balls.jpg',
+  './images/osmanthus-oolong.jpg',
 ]
 
 self.addEventListener('install', (event) => {
