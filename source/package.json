@@ -1,0 +1,23 @@
+{
+  "name": "xiangli-ordering-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "release": "npm run build && node scripts/sync-release.mjs",
+    "check:flow": "node scripts/verify-flow.mjs",
+    "check:pwa": "node scripts/verify-pwa.mjs"
+  },
+  "dependencies": {
+    "@lucide/vue": "^1.47.0",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vite": "^7.3.6",
+    "vue": "^3.5.42"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}
